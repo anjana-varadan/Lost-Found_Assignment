@@ -1,0 +1,160 @@
+
+
+.movingbackgroud{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:0vw;
+    height: 88vh;
+    width:30%;
+    background: rgb(65,178,151);
+    transition:2s;
+    float:left;
+    z-index: 1;
+    
+  }
+  @keyframes banding2{
+    from{transform:scale3d(1,1,1);}
+    50%{transform:scale3d(1.75,1,1);}
+    to{transform:scale3d(1,1,1);}
+  }
+  @keyframes banding{
+    from{transform:scale3d(1,1,1);}
+    50%{transform:scale3d(1.75,1,1);}
+    to{transform:scale3d(1,1,1);}
+  }
+  .movingbackgroud h1, .content_login h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:40px;
+    font-weight: 800;
+    color:white
+  }
+  .movingbackgroud p, .content_login p{
+    color: white;
+    font-size:large;
+    font-weight: 300;
+  }
+  
+  .content_login button,  .movingbackgroud button{
+    position: relative;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 50px;
+    background: none;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    border: solid white 1px;
+    border-radius: 30px;
+    /* margin-top: 20px; */
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  /* #login__button{
+    position: relative;
+
+  }
+
+  #butn1{
+    position: absolute;
+  } */
+  .content_login{
+    position: relative;
+    right:0px;
+    width:65%;
+    height: 88vh;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_login .container{
+    width: 50vw;
+    position: absolute;
+    display: block;
+  }
+  .content_login .container h1{
+    margin-bottom: 40px;
+  }
+
+  input[type=text],input[type=password]{
+    width: 25vw;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    font-size: large;
+    background-color: rgba(209, 233, 215, 0.255);
+    
+  }
+  input:focus,select:focus{
+    outline: none;
+  }
+  button:focus{
+    outline: none;
+  }
+  input::placeholder{
+    font-size: small;
+  }
+  input[type=submit], input[type=button]{
+    width: 15vw;
+    height: 60px;
+    background: rgb(47, 142, 119);
+    color:white;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  input[type=time]{
+    background: rgba(209, 233, 215, 0.255);
+    border: none;
+  }
+  input[type=submit]:hover{
+    background: rgba(47, 142, 118, 0.926);
+    cursor: pointer;
+    box-shadow:1px 2px 20px rgba(117, 174, 160, 0.467);
+  }
+  a{
+    cursor: pointer;
+  }
+  .forget{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:rgba(128, 128, 128, 0.646);
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .movingbackgroud .container {
+    width: 25vw;
+    display: block;
+  }
+  .contents_to_hide{
+    position: relative;
+    width:25vw;
+    height: 150px;
+  }
+  .movingbackgroud .container .contents_to_hide .span{
+    position: absolute;
+  }
+  .container form div{
+    position: relative;
+    margin-left: 10px;
+  }
+  .container form div div{
+    position: relative;
+    width: auto;
+    height:60px
+  }
+  .container form div div div{
+    margin-top: 10px;
+  }
+  
+

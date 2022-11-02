@@ -1,0 +1,89 @@
+/* .product__container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.product__text button{
+    background-color: crimson;
+    color: white;
+    border: solid 1px crimson;
+    border-radius: 10px;
+    width: 30%;
+    height: 12%;
+} */
+
+.productDataPage{
+    width:80%;
+    height: 80vh;
+    margin-top: 20px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0%);
+    float: left;
+}
+.productDataPage .leftMostone{
+    width: 20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+.productDataPage .leftMostone h2{
+    font-size: 50px;   
+}
+.productDataPage .leftMostone h3{
+   height: 50px;
+   font-size: 20px;
+   width: 100%;
+   text-align: right;
+}
+.productDataPage .centerMost{
+    position: relative;
+    width:60%;
+    height: 100%;
+    float: left;
+}
+.productDataPage .centerMost img{
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+.productDataPage .rightMost{
+    width:20%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productDataPage .rightMost h2{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.productDataPage .rightMost button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    /* font-size: 50px; */
+    /* font-weight: 900; */
+    background-color: black;
+    color: white;
+    border: none;
+}
+.productDataPage .rightMost .qty{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 30px;
+}
